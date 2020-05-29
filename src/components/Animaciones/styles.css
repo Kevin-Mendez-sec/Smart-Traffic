@@ -1,0 +1,52 @@
+label{
+  font-family: 'Balsamiq Sans', cursive;
+  padding-top: 10px;
+}
+.letra{
+  font-family: 'Balsamiq Sans', cursive;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#envelope {
+  background-color: #eee;
+  box-shadow: 0 0 5px rgba(0,0,0,0.75);
+  height: 175px;
+  margin: 10px auto;
+  perspective: 900px;
+  perspective-origin: 50%;
+  position: relative;
+  transform-style: preserve-3d;
+  width: 300px;
+}
+
+body{
+   overflow-x: hidden;
+}
+
+#flap {
+  border-color: #f0f0f0 transparent transparent;
+  border-style: solid;
+  border-width: 110px 150px 87px 150px;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: transform 0.8s;
+  transform: rotateX(0) translateZ(7px);
+  transform-origin: 50% 0;
+  width: 0;
+}
+
+#front {
+  border-color: transparent #dde #e7e7e7 #d5e0e0;
+  border-style: solid;
+  border-width: 87px 150px;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  position: absolute;
+  transform: translateZ(5px);
+  width: 0;}
+  
+  
